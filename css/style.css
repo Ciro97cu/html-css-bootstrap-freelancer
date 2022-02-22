@@ -1,8 +1,4 @@
 /***** header *****/
-header .container-sm > .row {
-    height: 60px;
-}
-
 header li {
     font-size: 12px;
 }
@@ -10,8 +6,4 @@ header li {
 header h3 {
     font-size: 20px;
     margin-bottom: 0;
-}
-
-.justify-content-end {
-    height: 100%;
 }
