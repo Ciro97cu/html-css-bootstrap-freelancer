@@ -7,3 +7,9 @@ header h3 {
     font-size: 20px;
     margin-bottom: 0;
 }
+
+/***** section start *****/
+.wrapper_img_start {
+    width: 250px;
+}
+
