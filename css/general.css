@@ -45,9 +45,18 @@ header a:hover {
     border-color: #3a546d !important;
 }
 
+#contact [type="submit"] {
+    min-width: 70px;
+}
+
 #contact [type="submit"]:hover {
     color: #3a546d !important;
     border: 2px solid #3a546d !important;
+}
+
+footer .social > i:hover {
+    color: #1abc9c;
+    border-color: #1abc9c;
 }
 
 /***** gap *****/
@@ -67,4 +76,68 @@ header a:hover {
 .line {
     width: 100px;
     height: 5px;
+}
+
+/***** animation for all the stars and lines *****/
+.fa-star {
+    animation: star 1s linear infinite;
+}
+
+@-webkit-keyframes star {
+
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.line {
+    animation: line 1s linear infinite;
+}
+
+@-webkit-keyframes line {
+
+    25% {
+        width: 125px;
+    }
+    50% {
+        width: 150px;
+    }
+    75% {
+        width: 125px;
+    }
+    100% {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .line {
+        width: 50px;
+        height: 3px;
+    }
+
+    @-webkit-keyframes line {
+
+        25% {
+            width: 62.5px;
+        }
+        50% {
+            width: 75px;
+        }
+        75% {
+            width: 62.5px;
+        }
+        100% {
+            width: 50px;
+        }
+    }
 }
