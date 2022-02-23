@@ -36,7 +36,7 @@ a {
 }
 
 /***** hover *****/
-a:hover {
+header a:hover {
     color: #1abc9c !important;
 }
 
@@ -45,11 +45,12 @@ a:hover {
     border-color: #3a546d !important;
 }
 
-/***** gap *****/
-.row_gap {
-    row-gap: 20px;
+#contact [type="submit"]:hover {
+    color: #3a546d !important;
+    border: 2px solid #3a546d !important;
 }
 
+/***** gap *****/
 .row_gap_sm {
     row-gap: 5px;
 }
@@ -58,6 +59,11 @@ a:hover {
     row-gap: 10px;
 }
 
+.row_gap {
+    row-gap: 20px;
+}
+
+/***** line *****/
 .line {
     width: 100px;
     height: 5px;
