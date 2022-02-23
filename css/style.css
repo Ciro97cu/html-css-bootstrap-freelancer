@@ -1,15 +1,18 @@
+/***** resert margin *****/
+h1, h2, h3, p {
+    margin: 0;
+}
 /***** header *****/
 header li {
     font-size: 12px;
 }
 
-header h3 {
-    font-size: 20px;
-    margin-bottom: 0;
-}
-
 /***** section start *****/
-.wrapper_img_start {
+#start .wrapper_img_start {
     width: 250px;
 }
 
+/***** section portfolio *****/
+#portfolio .col-12 > * {
+    border-radius: 20px;
+}
