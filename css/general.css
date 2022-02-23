@@ -54,6 +54,10 @@ a:hover {
     row-gap: 5px;
 }
 
+.row_gap_md {
+    row-gap: 10px;
+}
+
 .line {
     width: 100px;
     height: 5px;

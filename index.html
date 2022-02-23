@@ -244,26 +244,55 @@
         </section>
 
         <!--***** section contact *****-->
-        <section id="contact" class="py-4">
+        <section id="contact" class="py-5">
 
             <div class="container-md">
 
+                <!-- title section -->
+                <div class="row row_gap mb-4">
+
+                    <h2 class="text-center c_dark_blue col-12">CONTACT ME</h2>
+
+                    <div class="col-12 c_dark_blue">
+
+                        <div class="row justify-content-center align-items-center">
+
+                            <div class="line bg_dark_blue col-auto rounded-3"></div>
+                            <i class="fa-solid fa-2x fa-star col-auto"></i>
+                            <div class="line bg_dark_blue col-auto rounded-3"></div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
                 <!-- row -->
-                <div class="row row-cols-sm-1 justify-content-center row-cols-md-1">
+                <div class="row row-cols-sm-1 row-cols-md-1 row_gap_md">
 
-                    <h2 class="col-4 text-center">
-                        CONTACT ME
-                    </h2>
+                    <div class="col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+                        <label for="f-name">Name</label>
+                        <input type="text" id="f-name" class="w-100 w-md-100" placeholder="Insert Name">
+                    </div>
 
-                    <p class="col-sm-5 col-md-5 border-bottom">Name</p>
-                    <div class="w-100"></div>
-                    <p class="col-sm-5 col-md-5 border-bottom">Email Address</p>
-                    <div class="w-100"></div>
-                    <p class="col-sm-5 col-md-5 border-bottom">Phone Number</p>
-                    <div class="w-100"></div>
-                    <p class="col-sm-5 col-md-5 border-bottom pb-5">Message</p>
-                    <div class="w-100"></div>
-                    <a href="#" class="w-auto text-white bg_aqua py-2 px-4">Send</a>
+                    <div class="col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+                        <label for="u-email">Email Address</label>
+                        <input type="email" id="u-email" class="w-100 w-md-100" placeholder="Insert Email">
+                    </div>
+
+                    <div class="col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+                        <label for="cell">Phone Number</label>
+                        <input type="tel" id="cell" class="w-100 w-md-100" placeholder="Insert Number">
+                    </div>
+
+                    <div class="col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+                        <label for="textareas">Message</label>
+                        <textarea id="textareas" class="w-100 w-md-100" rows="5" placeholder="Write here"></textarea>
+                    </div>
+
+                    <div class=" col-6 offset-3 col-sm-6 offset-sm-3 col-md-6 offset-md-3">
+                        <input type="submit" value="Send" class="py-2 w-25 bg_aqua text-white border-0 rounded-3">
+                    </div>
 
                 </div>
 
