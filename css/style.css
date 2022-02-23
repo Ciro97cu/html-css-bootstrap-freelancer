@@ -9,7 +9,7 @@ header li {
 
 /***** section start *****/
 #start .wrapper_img_start {
-    width: 250px;
+    max-width: 250px;
 }
 
 /***** section portfolio *****/
