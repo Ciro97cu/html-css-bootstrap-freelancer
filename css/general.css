@@ -119,6 +119,7 @@ footer .social > i:hover {
     }
 }
 
+/***** mediaquery for line animation *****/
 @media screen and (max-width: 375px) {
     .line {
         width: 50px;
